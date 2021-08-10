@@ -121,7 +121,7 @@ ChunkOfText('You can find code of this PDF using QR Code below',
                             width=Decimal(201),
                             height=Decimal(10)))
 
-code_source.add(Barcode(data='https://github.com/DragonDoctor2033',
+code_source.add(Barcode(data='https://github.com/DragonDoctor2033/PDF_CV_Generator/blob/main/main.py',
                         type=BarcodeType.QR,
                         horizontal_alignment=Alignment.CENTERED,
                         vertical_alignment=Alignment.BOTTOM,
